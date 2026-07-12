@@ -5,7 +5,7 @@ function setup(){
     // let height = 5;
     // let area = 0.5 * base * height;
     // console.log(area);
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 10; i <= 20; i++) {
         console.log(i);
     }
 }
