@@ -1,6 +1,8 @@
 function setup(){
     new Canvas(800,400);
     console.log("hello");
+    let base = 10;
+    let height = 5;
     
 }
 
