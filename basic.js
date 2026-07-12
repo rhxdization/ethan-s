@@ -8,9 +8,8 @@ function setup(){
 
     
     let total = 0
-    for (let i = 19; i >= 1; i-=2) {
-        console.log(i);
-        total += i;
+    while (i < 1) {
+        i
     }
 
     // let age = 1
