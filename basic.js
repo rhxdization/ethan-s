@@ -14,7 +14,9 @@ function setup(){
     // }
 
     let age = 1
-    
+    if (age < 9) {
+        
+    }
 }
 
 function draw(){
