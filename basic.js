@@ -7,7 +7,7 @@ function setup(){
     // console.log(area);
 
     
-    let total = 0
+    let i = 19
     while (i < 1) {
         console.log(i)
         i -= 2
