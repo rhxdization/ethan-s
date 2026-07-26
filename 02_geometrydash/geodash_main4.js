@@ -126,6 +126,8 @@ function draw() {
   for (let orb of orbs) {
     if (box.colliding(orb)) {
       orb.visible = false;
+      orb.collider = false;
+      box.vel.y = -5;
       
     }
   }
