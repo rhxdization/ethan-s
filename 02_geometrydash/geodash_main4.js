@@ -3,6 +3,10 @@ let box;
 let cube;
 let bg;
 
+const maxjump = 1;
+let jumpChance = maxjump;
+  
+
 // game variables
 
 
