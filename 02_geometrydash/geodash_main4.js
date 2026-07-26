@@ -79,7 +79,8 @@ function setup() {
 }
 
 function draw() {
-  
+  box.collider = "dynamic";
+   
 }
 
 
