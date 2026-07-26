@@ -128,7 +128,7 @@ function draw() {
       orb.visible = false;
       orb.collider = false;
       box.vel.y = -5;
-      
+      jumpChance = maxjump;
     }
   }
 }
