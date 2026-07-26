@@ -99,7 +99,9 @@ function draw() {
     jumpChance -= 1;
   }
 
-  if (box.collides(ground) && jumpChance)
+  if (box.collides(ground) && jumpChance < maxjump) {
+    jumpchance = maxjump;
+  }
 }
 
 
