@@ -121,7 +121,7 @@ function draw() {
       }
     }
 
-  }
+  }   
 }
 
 function resetGame() {
