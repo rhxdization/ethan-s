@@ -84,7 +84,7 @@ function setup() {
 
 function draw() {
   clear();
-  
+
   box.collider = "dynamic";
   box.vel.x = 8;
   
@@ -103,6 +103,10 @@ function draw() {
 
   if (box.collides(ground) && jumpChance < maxjump) {
     jumpchance = maxjump;
+  }
+
+  if (box.collides(sharp)) {
+    
   }
 }
 
