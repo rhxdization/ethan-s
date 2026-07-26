@@ -75,9 +75,9 @@ function setup() {
   spike = new Group();
   spike.tile = "s";
   spike.w = 50;
-  spike.h = 50;
-  spike.collider = "static";
-  spike.color = "black";
+  sharp.h = 50;
+  sharp.collider = "static";
+  sharp.color = "black";
 
   new Tiles(tileMap1, 0, 0, 50, 50);
 }
