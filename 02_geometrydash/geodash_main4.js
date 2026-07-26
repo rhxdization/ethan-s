@@ -106,7 +106,7 @@ function draw() {
   }
 
   if (box.collides(sharp)) {
-    
+    resetGame();
   }
 }
 
