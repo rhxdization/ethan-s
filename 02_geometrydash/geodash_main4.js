@@ -72,9 +72,9 @@ function setup() {
   finishline.visible = false;
   finishline.collider = "static";
 
-  spike = new Group();
-  spike.tile = "s";
-  spike.w = 50;
+  sharp = new Group();
+  sharp.tile = "s";
+  sharp.w = 50;
   sharp.h = 50;
   sharp.collider = "static";
   sharp.color = "black";
