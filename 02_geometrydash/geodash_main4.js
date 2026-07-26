@@ -31,7 +31,7 @@ function preload() {
     bg = loadImage('assets/geobg.png');
 
     tileMap1 = loadStrings('stages/tiles1.txt');
-    sharp = loadImage('assets/sharp.png');
+    sharp = loadImage('assets/spike.png');
 }
 
 function setup() {
