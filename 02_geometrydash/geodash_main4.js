@@ -80,7 +80,7 @@ function setup() {
 
 function draw() {
   box.collider = "dynamic";
-   
+  box.vel.x = 8 
 }
 
 
