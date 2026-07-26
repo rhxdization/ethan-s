@@ -93,6 +93,9 @@ function draw() {
     camera.x = width/2;
   }
 
+  if (((kb.presses("space")) || (mouse.presses())) && (jumpChance > 0)) {
+    
+  }
 }
 
 
