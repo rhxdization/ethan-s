@@ -84,7 +84,7 @@ function setup() {
 
 function draw() {
   clear();
-  image(bg,0,0,width,height)
+  image(bg,0,0,width,height);
 
   box.collider = "dynamic";
   box.vel.x = 8;
