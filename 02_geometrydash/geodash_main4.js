@@ -89,7 +89,6 @@ function draw() {
     camera.x = width/2;
   }
 
-  const maxjump = 1
 }
 
 
