@@ -124,7 +124,10 @@ function draw() {
   }
   
   for (let orb of orbs) {
-    
+    if (box.colliding(orb)) {
+      orb.visible = false;
+      
+    }
   }
 }
 
