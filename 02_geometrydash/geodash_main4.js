@@ -143,7 +143,9 @@ function resetGame() {
 
   camera.x = width/2;
 
-  
+  for (let orb of orbs) {
+    
+  }
 }
 
 
