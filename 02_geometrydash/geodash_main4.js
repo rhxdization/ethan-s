@@ -83,6 +83,8 @@ function setup() {
 }
 
 function draw() {
+  clear();
+  
   box.collider = "dynamic";
   box.vel.x = 8;
   
