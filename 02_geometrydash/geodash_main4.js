@@ -82,6 +82,17 @@ function setup() {
   new Tiles(tileMap1, 0, 0, 50, 50);
 }
 
+function resetGame() {
+  box.rotation = 0;
+
+  box.x = startCoordinates[0];
+  box.y = startCoordinates[1];
+
+  jumpChance = maxjump;
+
+  camera.x = width;
+}
+
 function draw() {
   clear();
 
