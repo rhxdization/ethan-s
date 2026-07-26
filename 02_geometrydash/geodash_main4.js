@@ -86,7 +86,7 @@ function draw() {
     camera.x = box.x;
   }
   else {
-    
+    camera.x = width/2;
   }
 }
 
