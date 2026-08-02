@@ -103,7 +103,11 @@ function draw() {
   if (!startgame && (mouse.presses() || kb.presses('space'))) {
     startgame = true;
     startsprite.visible = false;
-  } else if (star)
+  } else if (!startgame) {
+    if (frameCount % 60 < 30) {
+      
+    }
+  }
 
   box.collider = "dynamic";
   box.vel.x = 8;
