@@ -101,6 +101,8 @@ function draw() {
   image(bg,0,0,width,height);
 
   if (!startgame && (mouse.presses() || kb.presses('space'))) {
+    startgame = true;
+    startsprite.visible = false;
     
   }
 
