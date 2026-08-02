@@ -2,6 +2,7 @@
 let box;
 let cube;
 let bg;
+let 
 
 const maxjump = 1;
 let jumpChance = maxjump;
