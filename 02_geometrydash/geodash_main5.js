@@ -100,6 +100,8 @@ function draw() {
   clear();
   image(bg,0,0,width,height);
 
+  if (!startgame)
+
   box.collider = "dynamic";
   box.vel.x = 8;
   
