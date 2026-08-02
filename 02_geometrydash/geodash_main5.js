@@ -2,7 +2,10 @@
 let box;
 let cube;
 let bg;
-let 
+let startsprite;
+let endsprite;
+let startgameimg;
+let endgameimage;
 
 const maxjump = 1;
 let jumpChance = maxjump;
