@@ -7,6 +7,12 @@ let endsprite;
 let startgameimg;
 let endgameimage;
 
+let startgame = false;
+let gameover = false;
+
+let level = 1
+let lastlevel = 2;
+
 const maxjump = 1;
 let jumpChance = maxjump;
   
