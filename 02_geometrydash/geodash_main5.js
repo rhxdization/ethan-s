@@ -103,8 +103,7 @@ function draw() {
   if (!startgame && (mouse.presses() || kb.presses('space'))) {
     startgame = true;
     startsprite.visible = false;
-    
-  }
+  } else if (star)
 
   box.collider = "dynamic";
   box.vel.x = 8;
