@@ -45,7 +45,7 @@ function preload() {
 
     startgameimg = loadImage("assets/startgame.png");
     endgameimg = loadImage("assets/clear.png");
-    tilemap2 = loadstrings("stages/tiles2.txt");
+    tilemap2 = loadStrings("stages/tiles2.txt");
 }
 
 function setup() {
