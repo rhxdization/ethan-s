@@ -35,7 +35,9 @@ let spike;
 
 // sound assets
 
-
+let backgroundtrack;
+let failsound;
+let passsound;
 
 function preload() {
     cube = loadImage('assets/cube.png');
@@ -47,6 +49,8 @@ function preload() {
     startgameimg = loadImage("assets/startgame.png");
     endgameimg = loadImage("assets/clear.png");
     tilemap2 = loadStrings("stages/tiles2.txt");
+
+    b
 }
 
 function setup() {
