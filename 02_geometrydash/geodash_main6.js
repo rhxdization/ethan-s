@@ -52,7 +52,8 @@ function setup() {
   new Canvas(700,600);
   world.gravity.y = 32
 
-  startsprite = new Sprite(width/2)
+  startsprite = new Sprite(width/2, height/2, 190, 90);
+  s
   
   box = new Sprite(50, height, 50, 50);
   box.img = cube;
