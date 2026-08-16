@@ -41,7 +41,7 @@ function preload() {
     bg = loadImage('assets/geobg.png');
 
     tileMap1 = loadStrings('stages/tiles1.txt');
-    sharp = loadImage('assets/spike.png');
+    spike = loadImage('assets/spike.png');
 
     startgameimg = loadImage("assets/startgame.png");
     endgameimg = loadImage("assets/clear.png");
@@ -96,6 +96,7 @@ function setup() {
   sharp.h = 50;
   sharp.collider = "static";
   sharp.color = "black";
+  
   
 
   new Tiles(tileMap1, 0, 0, 50, 50);
