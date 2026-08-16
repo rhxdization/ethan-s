@@ -53,7 +53,8 @@ function setup() {
   world.gravity.y = 32
 
   startsprite = new Sprite(width/2, height/2, 190, 90);
-  s
+  startsprite.img = startgameimg;
+  startsprite.collider = "none";
   
   box = new Sprite(50, height, 50, 50);
   box.img = cube;
