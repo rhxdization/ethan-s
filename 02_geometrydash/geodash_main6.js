@@ -186,10 +186,14 @@ function draw() {
     for(let tile of ground) {
       if (box.colliding(tile)) {
         if (box.x < leftedge && box.y > leftedgeheight) {
-          
+          lost = true
         }
       }
     }
+  }
+
+  if (box.collides(sharp)) {
+    
   }
 
 }
