@@ -134,7 +134,7 @@ function draw() {
   }
 
   if (box.collides(ground) && jumpChance < maxjump) {
-    jumpchance = maxjump;
+    jumpChance = maxjump;
   }
 
   if (box.collides(sharp)) {
