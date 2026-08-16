@@ -52,7 +52,7 @@ function preload() {
 
     backgroundtrack = createAudio("assets/stereo-madness.mp3");
     failsound = createAudio("assets/geometry-dash-death-sound.mp3");
-    passsound = createAudio("")
+    passsound = createAudio("assets/game-start.mp3");
 }
 
 function setup() {
