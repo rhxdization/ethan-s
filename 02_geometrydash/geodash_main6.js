@@ -180,7 +180,7 @@ function resetGame() {
   }
 
   if (frameCount % 3 === 0 && box.colliding(ground) && box.vel.x >= 0.5) {
-    
+    box.rotation = 0;
   }
 }
 
