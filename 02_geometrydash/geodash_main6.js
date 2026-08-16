@@ -185,7 +185,9 @@ function draw() {
   if (startgame) {
     for(let tile of ground) {
       if (box.colliding(tile)) {
-        
+        if (box.x < leftedge && box.y > leftedgeheight) {
+          
+        }
       }
     }
   }
