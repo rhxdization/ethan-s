@@ -153,6 +153,17 @@ function draw() {
       }
     }
 
+    if (frameCount % 3 === 0 && box.colliding(ground) && box.vel.x >= 0.5) {
+      box.rotation = 0;
+
+    let particle = new Sprite(box.x, box.y + box.h / 2,8,8, "none");
+    particle.color = "white";
+    particle.strokeWeight = 0;
+    particle.vel.x = -5;
+    particle.vel.y = random(-2,0);
+    particle.life = 30;
+  }
+
   }
   
   for (let orb of orbs) {
@@ -163,7 +174,7 @@ function draw() {
       jumpChance = maxjump;
     }
   }
-  
+
 }
 
 function resetGame() {
