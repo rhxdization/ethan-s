@@ -220,7 +220,7 @@ function resetGame() {
 }
 
 function triggergameover() {
-}
+ }
 
 function drawBackground() {
 
