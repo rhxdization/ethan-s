@@ -4,10 +4,10 @@
 
 
             sss sss
-            s     
-            sss
-            s s    
-            sss   
+            s     s
+            sss   s
+            s s   s   
+            sss   s 
 
                                                           f
 gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
