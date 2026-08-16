@@ -175,7 +175,7 @@ function resetGame() {
 }
 
 function triggergameover() {
-  if (!gameove)
+  
 }
 
 
