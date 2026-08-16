@@ -60,6 +60,8 @@ function setup() {
   new Canvas(700,600);
   world.gravity.y = 32
 
+  mapUsed = tileMap1;
+
   startsprite = new Sprite(width/2, height/2, 190, 90);
   startsprite.img = startgameimg;
   startsprite.collider = "none";
