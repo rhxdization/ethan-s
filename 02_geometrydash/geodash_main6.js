@@ -195,7 +195,9 @@ function draw() {
   if (box.collides(sharp)) {
     lost = true
   }
-  if (box.collides(finishline)) 
+  if (box.collides(finishline)) {
+    lost = false
+  }
 
 }
 
