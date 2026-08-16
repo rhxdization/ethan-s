@@ -24,7 +24,7 @@ let jumpChance = maxjump;
 let tileMap1;
 let ground;
 let orbs;
-let spike;
+let sharp;
 let finishline;
 
 // image sprites
@@ -41,7 +41,7 @@ function preload() {
     bg = loadImage('assets/geobg.png');
 
     tileMap1 = loadStrings('stages/tiles1.txt');
-    spike = loadImage('assets/spike.png');
+    sharp = loadImage('assets/spike.png');
 
     startgameimg = loadImage("assets/startgame.png");
     endgameimg = loadImage("assets/clear.png");
@@ -90,12 +90,12 @@ function setup() {
   finishline.visible = false;
   finishline.collider = "static";
 
-  spike = new Group();
-  spike.tile = "s";
-  spike.w = 50;
-  spike.h = 50;
-  spike.collider = "static";
-  spike.color = "black";
+  sharp = new Group();
+  sharp.tile = "s";
+  sharp.w = 50;
+  sharp.h = 50;
+  sharp.collider = "static";
+  sharp.color = "black";
   
 
   new Tiles(tileMap1, 0, 0, 50, 50);
@@ -136,7 +136,7 @@ function draw() {
     jumpchance = maxjump;
   }
 
-  if (box.collides(spike)) {
+  if (box.collides(sharp)) {
     resetGame();
   }
 
