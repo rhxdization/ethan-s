@@ -4,10 +4,10 @@
 
 
                 ggg ggg
-                g           
-                ggg     
-                g g          
-                ggg 
+                g     g      
+                ggg   g  
+                g g   g       
+                ggg   g
 
                                                           f
 gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
