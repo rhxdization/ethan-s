@@ -50,7 +50,8 @@ function preload() {
     endgameimg = loadImage("assets/clear.png");
     tilemap2 = loadStrings("stages/tiles2.txt");
 
-    backgroundtrack = createAudio()
+    backgroundtrack = createAudio("assets/stereo-madness.mp3");
+    failsound = createAudio()
 }
 
 function setup() {
