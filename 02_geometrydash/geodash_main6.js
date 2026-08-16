@@ -112,6 +112,7 @@ function setup() {
 function draw() {
   clear();
   image(bg,0,0,width,height);
+  drawBackground()
 
   if (!startgame && (mouse.presses() || kb.presses('space'))) {
     startgame = true;
