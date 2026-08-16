@@ -183,7 +183,7 @@ function resetGame() {
     box.rotation = 0;
 
     let particle = new Sprite(box.x, box.y + box.h / 2,8,8, "none");
-    
+    particle.color = "white"
   }
 }
 
