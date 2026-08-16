@@ -6,6 +6,7 @@ let startsprite;
 let endsprite;
 let startgameimg;
 let endgameimage;
+let mapUsed;
 
 let startgame = false;
 let gameover = false;
