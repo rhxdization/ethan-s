@@ -92,10 +92,10 @@ function setup() {
 
   sharp = new Group();
   sharp.tile = "s";
-  sharp.w = 50;
-  sharp.h = 50;
-  sharp.collider = "static";
-  sharp.color = "black";
+  spike.w = 50;
+  spike.h = 50;
+  spike.collider = "static";
+  spike.color = "black";
   
 
   new Tiles(tileMap1, 0, 0, 50, 50);
