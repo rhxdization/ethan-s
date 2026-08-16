@@ -183,7 +183,7 @@ function draw() {
   }
 
   if (startgame) {
-    
+    for(let tile of ground); 
   }
 
 }
