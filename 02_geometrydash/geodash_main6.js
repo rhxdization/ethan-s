@@ -90,8 +90,8 @@ function setup() {
   finishline.visible = false;
   finishline.collider = "static";
 
-  sharp = new Group();
-  sharp.tile = "s";
+  spike = new Group();
+  spike.tile = "s";
   spike.w = 50;
   spike.h = 50;
   spike.collider = "static";
@@ -136,7 +136,7 @@ function draw() {
     jumpchance = maxjump;
   }
 
-  if (box.collides(sharp)) {
+  if (box.collides(spike)) {
     resetGame();
   }
 
