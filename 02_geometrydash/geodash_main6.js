@@ -187,7 +187,7 @@ function resetGame() {
     particle.strokeWeight = 0;
     particle.vel.x = -5;
     particle.vel.y = random(-2,0);
-    
+    particle.life = 30;
   }
 }
 
