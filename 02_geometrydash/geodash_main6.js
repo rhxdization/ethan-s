@@ -182,6 +182,10 @@ function draw() {
     }
   }
 
+  if (startgame) {
+    
+  }
+
 }
 
 function resetGame() {
