@@ -96,7 +96,7 @@ function setup() {
   sharp.h = 50;
   sharp.collider = "static";
   sharp.color = "black";
-  
+  sharp.img = spike;
   
 
   new Tiles(tileMap1, 0, 0, 50, 50);
