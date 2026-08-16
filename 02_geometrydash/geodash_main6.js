@@ -163,7 +163,7 @@ function draw() {
       particle.vel.y = random(-2,0);
       particle.life = 30;
 
-      particles.add()
+      particles.add(particle);
   }
 
   }
