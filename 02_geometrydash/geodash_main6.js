@@ -36,6 +36,7 @@ let spike;
 // sound assets
 
 
+
 function preload() {
     cube = loadImage('assets/cube.png');
     bg = loadImage('assets/geobg.png');
@@ -162,8 +163,6 @@ function draw() {
       particle.vel.x = -5;
       particle.vel.y = random(-2,0);
       particle.life = 30;
-
-      particles.add(particle);
   }
 
   }
