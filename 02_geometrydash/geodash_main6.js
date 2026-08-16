@@ -178,6 +178,10 @@ function resetGame() {
     orb.visible = true;
     orb.collider = "static";
   }
+
+  if (frameCount % 3 === 0 && box.colliding(ground) && box.vel.x >= 0.5) {
+    
+  }
 }
 
 function triggergameover() {
