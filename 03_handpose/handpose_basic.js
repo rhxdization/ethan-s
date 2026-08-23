@@ -49,6 +49,10 @@ function setup() {
 
 }
 
+function gotHands(results) {
+    
+}
+
 function draw() {}
 
 //=========================================
