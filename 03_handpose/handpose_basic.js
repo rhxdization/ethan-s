@@ -4,6 +4,7 @@
 
 let handpose;
 
+
 //=========================================
 // Code
 //=========================================
@@ -18,9 +19,6 @@ function preload() {
     }
 
     handpose = ml5.handPose(options);
-
-    let videoW = 640;
-    let videoH = 480;
     
 }
 
