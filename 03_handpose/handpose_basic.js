@@ -13,7 +13,8 @@ function preload() {}
         flipped: true,
         runtime: "tfjs",
         modelType: "full",
-        detectorMore
+        detectorModelUrl: undefined,
+        la
 
     }
 function setup() {}
