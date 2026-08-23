@@ -53,7 +53,9 @@ function gotHands(results) {
     hands = results
 }
 
-function draw() {}
+function draw() {
+    
+}
 
 //=========================================
 // Function Created
