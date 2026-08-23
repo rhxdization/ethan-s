@@ -48,7 +48,8 @@ function setup() {
 
     handpose.detectStart(video, gotHands);
 
-    fingertip = new Sprite
+    fingertip = new Sprite();
+    fingerTip.di
 }
 
 function gotHands(results) {
