@@ -6,6 +6,7 @@ let handpose;
 let videoH = 480;
 let videoW = 640;
 let hands = [];
+let balloon;
 
 
 
@@ -58,7 +59,10 @@ function setup() {
     balloon.collider = 'dynamic';
     balloon.color = 'red';
     balloon.x = width/2;
-    balloon.
+    balloon.y = 100;
+    balloon.bounciness = 1;
+    balloon.mass - 2;
+    balloon.drag = 0.01;
 }
 
 function gotHands(results) {
