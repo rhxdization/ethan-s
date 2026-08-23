@@ -54,7 +54,7 @@ function gotHands(results) {
 }
 
 function draw() {
-    
+    image(video, 0, 0, videoW, videoH);
 }
 
 //=========================================
