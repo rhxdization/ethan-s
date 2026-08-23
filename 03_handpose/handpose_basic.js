@@ -50,7 +50,7 @@ function setup() {
 
     fingertip = new Sprite();
     fingertip.diameter = 60;
-    fingertip.collider = kinematic;
+    fingertip.collider = 'kinematic';
     fingertip.color = 'rgba(0,255,0,0.05';
 }
 
@@ -77,6 +77,8 @@ function draw() {
 
         circle(keypoint.x, keypoint.y, 30);
     }
+
+    
 }
 
 
