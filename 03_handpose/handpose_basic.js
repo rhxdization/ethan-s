@@ -50,7 +50,8 @@ function setup() {
 
     fingertip = new Sprite();
     fingertip.diameter = 60;
-    fingertip
+    fingertip.collider = kinematic;
+    fingertip.color = 'rgba'
 }
 
 function gotHands(results) {
