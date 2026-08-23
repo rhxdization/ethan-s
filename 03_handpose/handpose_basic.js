@@ -5,6 +5,7 @@
 let handpose;
 let videoH = 480;
 let videoW = 640;
+let hands = [];
 
 
 //=========================================
