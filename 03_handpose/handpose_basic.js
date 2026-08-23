@@ -9,7 +9,12 @@ let handpose;
 //=========================================
 
 function preload() {}
+    let options = {
+        flipped: true,
+        runtime: "tfjs",
+        m
 
+    }
 function setup() {}
 
 function draw() {}
