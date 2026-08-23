@@ -54,7 +54,7 @@ function setup() {
     fingertip.color = 'rgba(0,255,0,0.05';
 
     balloon = new Sprite();
-    
+    balloon.diameter = 50
 }
 
 function gotHands(results) {
