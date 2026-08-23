@@ -3,7 +3,7 @@
 //=========================================
 
 let handpose;
-let videoH = 640;
+let videoH = 480;
 let videoW = 640;
 
 
