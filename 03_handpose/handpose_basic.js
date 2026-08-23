@@ -14,9 +14,10 @@ function preload() {}
         runtime: "tfjs",
         modelType: "full",
         detectorModelUrl: undefined,
-        la
+        landmarkModelUrl: undefined,
 
     }
+    
 function setup() {}
 
 function draw() {}
