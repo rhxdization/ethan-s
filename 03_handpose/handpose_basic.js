@@ -43,6 +43,8 @@ function setup() {
     video = createCapture(constraints);
     video.size(640,480);
     video.hide();
+
+    handpose.detectStart(video, gotHands);
 }
 
 function draw() {}
