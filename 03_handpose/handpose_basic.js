@@ -76,6 +76,8 @@ function draw() {
         let keypoint = hand.keypoints[8];
 
         circle(keypoint.x, keypoint.y, 30);
+
+        fingertip.x = 
     }
 }
 
