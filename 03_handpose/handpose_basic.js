@@ -14,7 +14,7 @@ let hands = [];
 
 function preload() {
     let options = {
-        flipped: true,
+        flipped: false,
         runtime: "tfjs",
         modelType: "full",
         detectorModelUrl: undefined,
@@ -56,7 +56,7 @@ function gotHands(results) {
 function draw() {
     image(video, 0, 0, videoW, videoH);
 
-    
+
 }
 
 //=========================================
