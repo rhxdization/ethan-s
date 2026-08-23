@@ -34,8 +34,8 @@ function setup() {
                 minWidth: videoW,
                 minHeight: videoH,
             },
-            optional: 
-        }
+            optional: [{minFrameRate: 60}]
+        },
     }
 }
 
