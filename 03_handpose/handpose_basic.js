@@ -14,7 +14,7 @@ let hands = [];
 
 function preload() {
     let options = {
-        flipped: false,
+        flipped: true,
         runtime: "tfjs",
         modelType: "full",
         detectorModelUrl: undefined,
