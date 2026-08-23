@@ -49,7 +49,8 @@ function setup() {
     handpose.detectStart(video, gotHands);
 
     fingertip = new Sprite();
-    fingerTip.di
+    fingertip.diameter = 60;
+    fingertip
 }
 
 function gotHands(results) {
