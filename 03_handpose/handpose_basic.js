@@ -50,7 +50,7 @@ function setup() {
 }
 
 function gotHands(results) {
-    
+    hands = results
 }
 
 function draw() {}
