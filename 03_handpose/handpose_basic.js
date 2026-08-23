@@ -48,6 +48,7 @@ function setup() {
 
     handpose.detectStart(video, gotHands);
 
+    
 }
 
 function gotHands(results) {
