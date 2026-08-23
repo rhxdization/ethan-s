@@ -18,9 +18,9 @@ function preload() {
     }
 
     handpose = ml5.handpose(options);
-    
-        let videoW = 640;
-        let videoH = 480;
+
+    let videoW = 640;
+    let videoH = 480;
     
 }
 
