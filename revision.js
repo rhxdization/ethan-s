@@ -25,4 +25,10 @@ function draw(){
     background("blue");
 
     box.velocity.x = 10
+
+  if ((kb.presses("space")) || (mouse.presses()) && (jumpChance > 0)) {
+    box.vel.y = -10;
+    box.rotateTo(box.rotation + 359, 15);
+    jumpChance -= 1;
+  }
 }
