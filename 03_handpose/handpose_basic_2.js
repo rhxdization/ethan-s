@@ -68,7 +68,7 @@ function setup() {
 
     topwall = new Sprite(width/2,0,width,10,'static');
     bottomwall = new Sprite(width/2,height,width,10,'static');
-    leftwall = new Sprite()
+    leftwall = new Sprite(0,height/2,10,)
 }
 
 function gotHands(results) {
