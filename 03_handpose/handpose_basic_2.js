@@ -135,7 +135,7 @@ function draw() {
         textSize(20);
         text("Use Index Finger to bounce the ball.",width/2,height/2-40);
         textsize(28);
-        text("Press SPACE to start the game")
+        text("Press SPACE to start the game",width/2,height/2);
     }
 }
 
