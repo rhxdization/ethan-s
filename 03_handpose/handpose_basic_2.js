@@ -10,7 +10,8 @@ let balloon;
 
 let bottomwall, topwall, rightwall, leftwall, boundarygroup;
 
-
+let gamestarted = false;
+let gameover = false;
 
 
 //=========================================
