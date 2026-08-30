@@ -27,6 +27,6 @@ function draw(){
     box.velocity.x = 10
 
   if ((kb.presses("space")) || (mouse.presses())) {
-    box.velocity.y = 10;
+    box.velocity.y -= 10;
   }
 }
