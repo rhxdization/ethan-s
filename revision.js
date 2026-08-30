@@ -26,7 +26,7 @@ function draw(){
 
     box.velocity.x = 4;
 
-    if ((kb.presses("space")) || (mouse.presses()) && (jumpChance > 0)) {
+    if ((kb.presses("space")) || (mouse.presses())) {
         box.vel.y = -10;
   }
 }
