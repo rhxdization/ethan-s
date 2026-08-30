@@ -128,7 +128,9 @@ function draw() {
         }
     }
 
-    if (gamestarted === false) 
+    if (gamestarted === false) {
+        textsize(28)
+    }
 }
 
 
