@@ -69,7 +69,9 @@ function setup() {
     topwall = new Sprite(width/2,0,width,10,'static');
     bottomwall = new Sprite(width/2,height,width,10,'static');
     leftwall = new Sprite(0,height/2,10,height,'static');
-    rightwall = new Sprite(width,height/)
+    rightwall = new Sprite(width,height/2,10,height,'static');
+
+    boundarygroup = new Group()
 }
 
 function gotHands(results) {
