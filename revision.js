@@ -15,6 +15,6 @@ function setup() {
 }
 
 function draw() {
-    cl
+    clear();
     box.vel.x = 8;
 }
