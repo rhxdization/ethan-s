@@ -1,6 +1,6 @@
 let box;
 let platform;
 
-function preload() {
+function setup() {
     
 }
