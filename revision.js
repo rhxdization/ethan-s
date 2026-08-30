@@ -7,7 +7,8 @@ function setup() {
     box = new Sprite();
     box.width = 50;
     box.height = 50;
-    box.x = 1
+    box.x = 100;
+    box.y = 240;
     box.collision = 'dynamic';
     box.color = 'rgb(255,0,0)'
     
