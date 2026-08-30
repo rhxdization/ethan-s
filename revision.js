@@ -16,14 +16,11 @@ function setup() {
     platform.collision = 'static';
     platform.color = 'rgb(0,0,0)';
 
-
-    
 }
 
 function draw() {
     
     background(200);
 
-    
     box.vel.y = -10;
 }
