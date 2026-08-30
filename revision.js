@@ -2,6 +2,6 @@ let box;
 let platform;
 
 function setup() {
-    let box = new Sprite();
-    
+    box = new Sprite();
+    box.width = 50;
 }
