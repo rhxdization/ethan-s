@@ -6,6 +6,6 @@ function setup() {
     
     box = new Sprite(50, height, 50, 50);
     box.collision = 'dynamic';
-    box.color = 'rgb(255,0,0)'
+    box.color = 'rgb(255,0,0)';
     
 }
