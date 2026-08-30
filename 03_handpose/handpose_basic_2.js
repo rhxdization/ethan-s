@@ -51,7 +51,7 @@ function setup() {
 
     handpose.detectStart(video, gotHands);
 
-    world
+    world.gravity.y = 6;
     
     fingertip = new Sprite();
     fingertip.diameter = 60;
