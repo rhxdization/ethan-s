@@ -130,7 +130,8 @@ function draw() {
 
     if (gamestarted === false) {
         textSize(28);
-        textAlign()
+        textAlign(CENTER, CENTER);
+        FileList
     }
 }
 
