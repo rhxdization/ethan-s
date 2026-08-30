@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-    clear();
+    
     background(200);
 
     box.collision = 'dynamic';
