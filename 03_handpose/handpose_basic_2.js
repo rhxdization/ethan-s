@@ -113,6 +113,12 @@ function draw() {
     else {
         fingertip.visible = false;
     }
+
+    if (gameover === false) {
+        if (hands.length = 0) {
+            
+        }
+    }
 }
 
 
