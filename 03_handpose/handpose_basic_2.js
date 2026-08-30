@@ -129,7 +129,8 @@ function draw() {
     }
 
     if (gamestarted === false) {
-        textsize(28)
+        textSize(28);
+        textAlign()
     }
 }
 
