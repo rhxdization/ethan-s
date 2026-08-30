@@ -132,7 +132,8 @@ function draw() {
         textSize(28);
         textAlign(CENTER, CENTER);
         fill('limegreen');
-        
+        textSize(20);
+        text()
     }
 }
 
