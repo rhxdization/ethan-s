@@ -22,5 +22,5 @@ function draw() {
     
     background(200);
 
-    box.vel.y = -10;
+    //box.vel.y = -10;
 }
