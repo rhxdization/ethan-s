@@ -22,6 +22,7 @@ function setup() {
 
 function draw() {
     
+
     
     box.collision = 'dynamic';
     box.vel.x = 4;
