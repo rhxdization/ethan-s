@@ -8,5 +8,6 @@ function setup() {
     box.width = 50;
     box.height = 50;
     box.collision = 'dynamic';
+    box.color = 'rgb(255,0,0)'
     
 }
