@@ -8,7 +8,7 @@ let videoW = 640;
 let hands = [];
 let balloon;
 
-
+let bottomwall, topwall, rightwall, leftwall, boundarygroup;
 
 
 
