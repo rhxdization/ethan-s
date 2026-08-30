@@ -119,8 +119,11 @@ function draw() {
             let hand = hands[0];
             let keypoint = hand.keypoints[8];
 
-            fingertip.x = 
+            fingertip.x = keypoint.x;
+            fingertip.y = keypoint.y;
+            fingertip.visible = true;
         }
+            else
     }
 }
 
