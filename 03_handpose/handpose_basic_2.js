@@ -74,7 +74,9 @@ function setup() {
     boundarygroup = new Group();
     boundarygroup.add(topwall);
     boundarygroup.add(bottomwall);
-    boundarygroup.add(leftwall;)
+    boundarygroup.add(leftwall);
+    boundarygroup.add(rightwall);
+    boundarygroup.visible = false;
 }
 
 function gotHands(results) {
