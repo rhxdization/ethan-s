@@ -66,7 +66,8 @@ function setup() {
     balloon.mass - 2;
     balloon.drag = 0.01;
 
-    topwall = new Sprite()
+    topwall = new Sprite(width/2,0,width,10,'static');
+    bottomwall = new Sprite(wi)
 }
 
 function gotHands(results) {
