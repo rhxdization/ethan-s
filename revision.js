@@ -8,7 +8,7 @@ function setup() {
     box.collision = 'dynamic';
     box.color = 'rgb(255,0,0)';
 
-    platform = new Sprite()
+    platform = new Sprite(320, 480, )
     
 }
 
