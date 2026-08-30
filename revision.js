@@ -24,3 +24,7 @@ function draw() {
 
     box.velocity.x = 10;
 }
+
+function draw(){
+    
+}
