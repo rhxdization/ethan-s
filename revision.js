@@ -11,6 +11,8 @@ function setup() {
     platform = new Sprite(320, 480, 1000, 50);
     platform.collision = 'static';
     platform.color = 'rgb(0,0,0)';
+
+    
     
 }
 
