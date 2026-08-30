@@ -1,2 +1,2 @@
-let box,
-let p
+let box;
+let platform;
