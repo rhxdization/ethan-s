@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
     clear();
-    background(1);
+    background('string');
 
     box.collision = 'dynamic';
     box.vel.x = 4;
