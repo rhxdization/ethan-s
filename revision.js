@@ -25,5 +25,5 @@ function draw() {
     background(200);
 
     box.collision = 'dynamic';
-    box.vel.x = 4;
+    box.vel.y = -10;
 }
