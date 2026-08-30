@@ -22,7 +22,5 @@ function setup() {
 
 
 function draw(){
-    background("blue");
-
     box.velocity.x = 10
 }
