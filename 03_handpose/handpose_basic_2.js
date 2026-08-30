@@ -133,7 +133,7 @@ function draw() {
         textAlign(CENTER, CENTER);
         fill('limegreen');
         textSize(20);
-        text()
+        text("Use Index Finger to bounce the ball."),width
     }
 }
 
