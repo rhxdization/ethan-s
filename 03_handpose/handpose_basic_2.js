@@ -123,7 +123,9 @@ function draw() {
             fingertip.y = keypoint.y;
             fingertip.visible = true;
         }
-            else
+        else {
+            fingertip = false;
+        }
     }
 }
 
