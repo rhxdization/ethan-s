@@ -24,5 +24,5 @@ function setup() {
 function draw(){
     background("blue")
 
-    box.velocity.x = 4
+    box.velocity.x = 4;
 }
