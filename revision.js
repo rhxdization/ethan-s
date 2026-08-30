@@ -1,34 +1,35 @@
-let box;
-let platform;
+// let box;
+// let platform;
 
-function setup() {
-    new Canvas(640,480);
+// function setup() {
+//     new Canvas(640,480);
 
     
 
-    box = new Sprite(100, height/2, 50, 50);
-    box.collider = 'dynamic';
-    box.friction = 0;
-    box.bounciness = 0;
-    box.color = 'rgb(255,0,0)';
+//     box = new Sprite(100, height/2, 50, 50);
+//     box.collider = 'dynamic';
+//     box.friction = 0;
+//     box.bounciness = 0;
+//     box.color = 'rgb(255,0,0)';
 
-    platform = new Sprite(320, 480, 1000, 50);
-    platform.collider = 'Static';
-    platform.color = 'rgb(0,0,0)';
+//     platform = new Sprite(320, 480, 1000, 50);
+//     platform.collider = 'Static';
+//     platform.color = 'rgb(0,0,0)';
 
-    world.gravity.y = 25;
+//     world.gravity.y = 25;
 
-}
+// }
 
 
-function draw(){
-    background(200)
+// function draw(){
+//     background(200)
 
-    box.velocity.x = 4;
+//     box.velocity.x = 4;
 
-    if ((kb.presses("space")) || (mouse.presses())) {
-        box.vel.y = -10;
-  }
+//     if ((kb.presses("space")) || (mouse.presses())) {
+//         box.vel.y = -10;
+//   }
 
-  camera.x = box.x;
-}
+//   camera.x = box.x;
+// }
+
