@@ -13,7 +13,7 @@ function setup() {
     box.color = 'rgb(255,0,0)';
 
     platform = new Sprite(320, 480, 1000, 50);
-    platform.collision = 'Static';
+    platform.collider = 'Static';
     platform.color = 'rgb(0,0,0)';
 
     world.gravity.y = 25;
@@ -22,5 +22,7 @@ function setup() {
 
 
 function draw(){
+
+    
     //box.velocity.x = 10
 }
