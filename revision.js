@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
     
-    //background("blue");
+    background("blue");
 
     box.velocity.x = 10;
 }
