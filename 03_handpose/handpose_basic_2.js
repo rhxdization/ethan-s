@@ -115,8 +115,8 @@ function draw() {
     }
 
     if (gameover === false) {
-        if (hands.length = 0) {
-            
+        if (hands.length > 0) {
+            let hand = hands[0]
         }
     }
 }
