@@ -25,4 +25,6 @@ function draw(){
     background(200)
 
     box.velocity.x = 4;
+
+    
 }
