@@ -127,6 +127,8 @@ function draw() {
             fingertip = false;
         }
     }
+
+    if (gamestarted === false) 
 }
 
 
