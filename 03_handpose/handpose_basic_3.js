@@ -137,6 +137,10 @@ function draw() {
         textsize(28);
         text("Press SPACE to start the game",width/2,height/2);
     }
+
+    if (gamestarted === false) {
+        textsize
+    }
 }
 
 
