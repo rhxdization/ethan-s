@@ -81,6 +81,8 @@ function setup() {
     boundarygroup.add(leftwall);
     boundarygroup.add(rightwall);
     boundarygroup.visible = false;
+
+    
 }
 
 function gotHands(results) {
