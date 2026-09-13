@@ -161,7 +161,10 @@ function draw() {
         bouncecooldown = bouncecooldown - deltaTime;
     }
 
-    
+    if (balloon.collides(bottomwall)) {
+        
+    }
+}
 //=========================================
 // Function Created
 //=========================================
