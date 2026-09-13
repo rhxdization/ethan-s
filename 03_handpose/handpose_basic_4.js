@@ -150,5 +150,5 @@ function keypressed() {
         score = 0;
     }
 
-    
+    balloon.x = 
 }
