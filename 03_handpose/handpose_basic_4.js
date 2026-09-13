@@ -8,7 +8,8 @@ let videoW = 640;
 let hands = [];
 let balloon;
 let fingertip;
-
+let score;
+let gameoversound;
 let bottomwall, topwall, rightwall, leftwall, boundarygroup;
 
 let gamestarted = false;
