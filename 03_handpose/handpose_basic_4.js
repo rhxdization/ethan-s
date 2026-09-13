@@ -13,6 +13,8 @@ let bottomwall, topwall, rightwall, leftwall, boundarygroup;
 let gamestarted = false;
 let gameover = false;
 
+let bouncesound;
+
 
 //=========================================
 // Code
@@ -28,6 +30,8 @@ function preload() {
     }
 
     handpose = ml5.handPose(options);
+
+    
     
 }
 
