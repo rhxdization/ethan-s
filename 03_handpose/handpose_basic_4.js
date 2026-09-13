@@ -168,6 +168,10 @@ function draw() {
         balloon.vel.x = 0;
         balloon.collider = 'none';
     }
+
+    if(gameover === true) {
+        textSize(36)
+    }
 }
 //=========================================
 // Function Created
