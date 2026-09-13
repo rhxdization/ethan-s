@@ -157,6 +157,7 @@ function draw() {
     text("Score: " + score, 10, 10);
 
     if (bouncecooldown > 0) {
+        bouncecooldown = bouncecooldown - deltaTime;
         
     }
 }
