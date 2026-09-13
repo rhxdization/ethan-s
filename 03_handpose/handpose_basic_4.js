@@ -157,7 +157,7 @@ function draw() {
 // Function Created
 //=========================================
 
-function keypressed() {
+function keyPressed() {
     if (key === ' ') {
         gamestarter = true;
         gameover = false;
