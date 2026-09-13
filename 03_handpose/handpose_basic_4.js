@@ -186,7 +186,7 @@ function draw() {
 
 function keyPressed() {
     if (key === ' ') {
-        gamestarter = true;
+        gamestarted = true;
         gameover = false;
         score = 0;
     }
