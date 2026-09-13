@@ -31,7 +31,7 @@ function preload() {
 
     handpose = ml5.handPose(options);
 
-    bouncesound = createAudio()
+    bouncesound = createAudio('assets/LowBoing.mp3');
     
 }
 
