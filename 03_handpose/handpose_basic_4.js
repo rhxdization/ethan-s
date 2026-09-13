@@ -131,12 +131,10 @@ function draw() {
         }
     }
 
-    if (balloon.collides(fingertip)) {
-        
-    }
 
     if(balloon.collides(fingertip)){
-
+        bouncesound.play();
+        score++;
     }
 
     if (gamestarted === false) {
