@@ -164,7 +164,9 @@ function draw() {
     if (balloon.collides(bottomwall)) {
         gameover = true;
         gameoversound.play();
-        
+        balloon.vel.y = 0;
+        balloon.vel.x = 0;
+        balloon.collider = 'none';
     }
 }
 //=========================================
