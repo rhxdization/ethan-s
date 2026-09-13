@@ -173,7 +173,8 @@ function draw() {
         textSize(36);
         textAlign(CENTER,CENTER);
         fill('magenta');
-        text("Game Over"),
+        text("Game Over", width/2, height/2);
+        
     }
 }
 //=========================================
