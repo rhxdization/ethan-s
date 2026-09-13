@@ -136,6 +136,8 @@ function draw() {
         score++;
     }
 
+    if(balloon.colli)
+
     if (gamestarted === false) {
         textSize(28);
         textAlign(CENTER, CENTER);
