@@ -136,9 +136,10 @@ function draw() {
     }
 
 
-    if(balloon.collides(fingertip)){
+    if(balloon.collides(fingertip) && bouncecooldown <= 0){
         bouncesound.play();
         score++;
+        bouncecooldown = bouncedelay;
     }
 
     if (gamestarted === false) {
@@ -160,12 +161,7 @@ function draw() {
         bouncecooldown = bouncecooldown - deltaTime;
     }
 
-    if (bouncecooldown <= 0 && balloon.collides(fingertip)) {
-        
-    }
-}
-
-
+    
 //=========================================
 // Function Created
 //=========================================
