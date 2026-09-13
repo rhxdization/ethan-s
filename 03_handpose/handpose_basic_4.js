@@ -145,6 +145,7 @@ function draw() {
         text("Press SPACE to start the game",width/2,height/2);
     }
 
+    fill(0);
 }
 
 
