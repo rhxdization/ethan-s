@@ -29,7 +29,7 @@ function preload() {
     let options = {
         flipped: true,
         runtime: "tfjs",
-        modelType: "full",
+        modelType: "lite",
         detectorModelUrl: undefined,
         landmarkModelUrl: undefined,
     }
