@@ -17,7 +17,7 @@ let gameover = false;
 let bouncesound;
 
 let bouncecooldown = 0;
-
+let bouncedelay = 200;
 
 
 //=========================================
