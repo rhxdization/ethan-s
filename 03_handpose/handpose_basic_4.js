@@ -162,7 +162,8 @@ function draw() {
     }
 
     if (balloon.collides(bottomwall)) {
-        
+        gameover = true;
+        gameoverSound.play();
     }
 }
 //=========================================
