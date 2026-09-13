@@ -145,6 +145,10 @@ function draw() {
 
 function keypressed() {
     if (key === ' ') {
-        
+        gamestarter = true;
+        gameover = false;
+        score = 0;
     }
+
+    
 }
