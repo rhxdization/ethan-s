@@ -130,6 +130,10 @@ function draw() {
         }
     }
 
+    if (balloon.collides(fingertip)) {
+        
+    }
+
     if (gamestarted === false) {
         textSize(28);
         textAlign(CENTER, CENTER);
