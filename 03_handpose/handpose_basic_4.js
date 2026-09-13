@@ -189,9 +189,8 @@ function keyPressed() {
         gamestarted = true;
         gameover = false;
         score = 0;
-    }
-
-    balloon.x = width/2;
+        
+        balloon.x = width/2;
     balloon.y = 100;
     balloon.vel.x = 0;
     balloon.vel.y = 0;
@@ -199,4 +198,7 @@ function keyPressed() {
     balloon.bounciness = 1;
     balloon.drag = 0.01;
     balloon.mass = 2;
+    }
+
+
 }
