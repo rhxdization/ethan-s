@@ -156,5 +156,6 @@ function keypressed() {
     balloon.vel.y = 0;
     balloon.collider = "dynamic";
     balloon.bounciness = 1;
-    balloon.drag = 2;
+    balloon.drag = 0.01;
+    balloon.mass = 2;
 }
