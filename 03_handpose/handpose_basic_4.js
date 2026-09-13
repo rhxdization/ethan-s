@@ -174,7 +174,8 @@ function draw() {
         textAlign(CENTER,CENTER);
         fill('magenta');
         text("Game Over", width/2, height/2);
-        
+        textSize(18);
+        text("Press SPACE to restart")
     }
 }
 //=========================================
