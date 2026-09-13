@@ -70,6 +70,7 @@ function setup() {
     balloon.color = 'red';
     balloon.x = width/2;
     balloon.y = 100;
+    balloon.collider = "static";
 
     topwall = new Sprite(width/2,0,width,10,'static');
     bottomwall = new Sprite(width/2,height,width,10,'static');
