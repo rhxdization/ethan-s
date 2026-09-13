@@ -172,7 +172,8 @@ function draw() {
     if(gameover === true) {
         textSize(36);
         textAlign(CENTER,CENTER);
-        fill('magenta')
+        fill('magenta');
+        text("Game Over"),
     }
 }
 //=========================================
