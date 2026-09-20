@@ -47,8 +47,11 @@ function setup() {
             height: cameraHeight,
             aspectRatio: cameraWidth/cameraHeight
         },
-        audio: false;
-    }
+        audio: false,
+        flipped: true
+    };
+    video = createCapture(constraints);
+    
 }
 
 
