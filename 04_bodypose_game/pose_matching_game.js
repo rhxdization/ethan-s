@@ -24,6 +24,7 @@ let leftPanelX = 0;
 let rightPanelX = sidePanelWidth + cameraWidth;
 
 let bodypose;
+let detectedPeople = [];
 
 // ====================================================
 // Preload
