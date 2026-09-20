@@ -42,7 +42,9 @@ function setup() {
     textAlign(CENTER, CENTER);
 
     let constraints = {
-        
+        video: {
+            width: camera
+        }
     }
 }
 
