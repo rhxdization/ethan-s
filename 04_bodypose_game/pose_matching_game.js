@@ -121,5 +121,5 @@ function drawMiddleLine() {
 function drawdetectionstatus() {
     fill(0);
     textSize(24);
-    text("People: ")
+    text("People: " + detectedPeople.length, width/2, 55);
 }
