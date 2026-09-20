@@ -119,5 +119,7 @@ function drawMiddleLine() {
 }
 
 function drawdetectionstatus() {
-    fill
+    fill(0);
+    textSize(24);
+    
 }
