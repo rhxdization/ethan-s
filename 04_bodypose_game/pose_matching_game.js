@@ -40,6 +40,10 @@ function setup() {
     new Canvas(totalCanvasWidth, cameraHeight);
     // Set up text.
     textAlign(CENTER, CENTER);
+
+    let constraints = {
+        
+    }
 }
 
 
