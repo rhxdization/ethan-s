@@ -75,6 +75,8 @@ function draw() {
 
     Image(video, cameraX, 0, cameraWidth, cameraHeight);
 
+    drawdetectionstatus();
+
 }
 
 // ====================================================
