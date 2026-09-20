@@ -77,6 +77,7 @@ function draw() {
 
     drawdetectionstatus();
 
+    if(detectedPeople.length > 0)
 }
 
 // ====================================================
