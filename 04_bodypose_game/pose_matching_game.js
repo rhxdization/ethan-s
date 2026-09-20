@@ -122,4 +122,6 @@ function drawdetectionstatus() {
     fill(0);
     textSize(24);
     text("People: " + detectedPeople.length, width/2, 55);
+
+    console.log(detectedPeople);
 }
