@@ -30,7 +30,7 @@ let bodypose;
 // ====================================================
 
 function preload(){
-    bodypose = ml5.bodypose("MoveNet")
+    bodypose = ml5.bodypose("MoveNet", {flipped: true});
 }
 
 // ====================================================
