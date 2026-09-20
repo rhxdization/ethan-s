@@ -45,8 +45,9 @@ function setup() {
         video: {
             width: cameraWidth,
             height: cameraHeight,
-            aspect
-        }
+            aspectRatio: cameraWidth/cameraHeight
+        },
+        audio: false;
     }
 }
 
