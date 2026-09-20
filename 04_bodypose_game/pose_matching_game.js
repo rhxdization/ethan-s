@@ -134,5 +134,5 @@ function drawdetectionstatus() {
 }
 
 function gotPoses(results) {
-    
+    detectedPeople = results;
 }
