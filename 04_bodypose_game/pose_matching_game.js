@@ -132,3 +132,7 @@ function drawdetectionstatus() {
 
     console.log(detectedPeople);
 }
+
+function gotPoses(results) {
+    
+}
