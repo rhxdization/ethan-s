@@ -224,6 +224,10 @@ function drawBodyPoint(point) {
 
 function pointIsReady(point) {
     if (point === null || point === undefined) {
+        return false;
+    }
+    
+    if (point.confidence > 0.25) {
         
     }
 }
