@@ -90,7 +90,7 @@ function draw() {
         circle(x,y,50);
     }
 
-
+    drawallskeletons();
 }
 
 // ====================================================
@@ -151,4 +151,10 @@ function drawdetectionstatus() {
 
 function gotPoses(results) {
     detectedPeople = results;
+}
+
+function drawallskeletons() {
+    for (let i = 0; i<detectedPeople.length; i++) {
+        let person = detectedPeople[1]
+    }
 }
