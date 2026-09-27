@@ -240,3 +240,7 @@ function pointIsReady(point) {
         return false;
     }   
 }
+
+function findplayers() {
+    
+}
