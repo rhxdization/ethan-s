@@ -26,6 +26,8 @@ let rightPanelX = sidePanelWidth + cameraWidth;
 let bodypose;
 let detectedPeople = [];
 
+let skeletoncolor;
+
 // ====================================================
 // Preload
 // ====================================================
@@ -57,6 +59,8 @@ function setup() {
     video.hide();
 
     bodypose.detectStart(video, gotPoses);
+
+    
 }
 
 
