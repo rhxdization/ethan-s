@@ -211,6 +211,8 @@ function drawSkeleton(person, skeletonColor) {
 }
 
 function drawBodyLine(point1, point2) {
-    
+    if (pointIsReady(point1) && pointIsReady(point2)) {
+        
+    }
 }
 
