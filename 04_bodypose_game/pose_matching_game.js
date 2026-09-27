@@ -222,4 +222,8 @@ function drawBodyPoint(point) {
     }
 }
 
-function(pointIsReady(point))
+function pointIsReady(point) {
+    if (point === null || point === undefined) {
+        
+    }
+}
