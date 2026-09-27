@@ -30,6 +30,8 @@ let skeletoncolor;
 
 let player1person = null;
 let player2person = null;
+let player1color;
+let player2color;
 
 // ====================================================
 // Preload
