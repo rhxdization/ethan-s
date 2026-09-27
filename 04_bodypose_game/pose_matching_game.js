@@ -216,3 +216,6 @@ function drawBodyLine(point1, point2) {
     }
 }
 
+function drawBodyPoint(point) {
+    if (pointIsReady)
+}
