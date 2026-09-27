@@ -249,5 +249,5 @@ function findplayers() {
     let bestplayer2distance = 99999;
 
     let player1centerx = cameraX + cameraWidth/4;
-        let player1centerx = cameraX + cameraWidth/4;
+    let player2centerx = cameraX + cameraWidth*3/4;
 }
