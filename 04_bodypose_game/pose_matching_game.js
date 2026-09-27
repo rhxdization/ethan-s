@@ -66,6 +66,9 @@ function setup() {
     bodypose.detectStart(video, gotPoses);
 
     skeletoncolor = color(80,180,255);
+
+    player1color = color(255,0,0);
+    player2color = color(0,0,255);
 }
 
 
