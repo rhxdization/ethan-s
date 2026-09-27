@@ -261,7 +261,7 @@ function findplayers() {
                 let distancefromplayer1area = abs(noseX - player1centerx);
                 if (distancefromplayer1area < bestplayer1distance) {
                     player1person = person;
-                    
+                    bestplayer1distance = distancefromplayer1area;
                 }
             }
         }
