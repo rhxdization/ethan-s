@@ -257,7 +257,9 @@ function findplayers() {
 
         if (pointIsReady(nose)) {
             let noseX = cameraX + nose.x;
-            
+            if (noseX < cameraMiddlex ) {
+                
+            }
         }
     }
 }
