@@ -210,4 +210,7 @@ function drawSkeleton(person, skeletonColor) {
     drawBodyPoint(person.right_hip);
 }
 
+function drawBodyLine(point1, point2) {
+    
+}
 
