@@ -264,7 +264,11 @@ function findplayers() {
                     bestplayer1distance = distancefromplayer1area;
                 }
             } else {
-                let distancefromplayer2area = 
+                let distancefromplayer2area = abs(noseX - player2centerx);
+
+                if (distancefromplayer2area < bestplayer2distance) {
+                    
+                }
             }
         }
      }
