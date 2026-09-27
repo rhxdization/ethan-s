@@ -250,4 +250,8 @@ function findplayers() {
 
     let player1centerx = cameraX + cameraWidth/4;
     let player2centerx = cameraX + cameraWidth*3/4;
+
+    for (let i = 0; i<detectedPeople.length; i++) {
+        
+    }
 }
