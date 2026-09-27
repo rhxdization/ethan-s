@@ -60,7 +60,7 @@ function setup() {
 
     bodypose.detectStart(video, gotPoses);
 
-    
+    skeletoncolor = color(80,180,255);
 }
 
 
@@ -89,6 +89,8 @@ function draw() {
         fill(255,0,0);
         circle(x,y,50);
     }
+
+
 }
 
 // ====================================================
