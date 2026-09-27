@@ -161,7 +161,7 @@ function drawallskeletons() {
 }
 
 // Draws one person's skeleton.
-function drawSkeleton(person, skeletonColor) {
+function drawSkeleton(person, skeletoncolor) {
     // Set skeleton line colour.
     stroke(skeletonColor);
 
