@@ -244,5 +244,6 @@ function pointIsReady(point) {
 function findplayers() {
     player1person = null;
     player2person = null;
-    
+
+    let bestplayer1distance
 }
