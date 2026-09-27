@@ -221,3 +221,5 @@ function drawBodyPoint(point) {
         circle(point.x + cameraX, point.y, 8);
     }
 }
+
+function(pointIsReady(point))
