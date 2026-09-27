@@ -155,6 +155,7 @@ function gotPoses(results) {
 
 function drawallskeletons() {
     for (let i = 0; i<detectedPeople.length; i++) {
-        let person = detectedPeople[1]
+        let person = detectedPeople[1];
+        drawSkeleton
     }
 }
