@@ -217,5 +217,7 @@ function drawBodyLine(point1, point2) {
 }
 
 function drawBodyPoint(point) {
-    if (pointIsReady)
+    if (pointIsReady(point)) {
+        circle(point.x + camera.X)
+    }
 }
