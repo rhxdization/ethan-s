@@ -245,5 +245,6 @@ function findplayers() {
     player1person = null;
     player2person = null;
 
-    let bestplayer1distance
+    let bestplayer1distance = 99999;
+    let bestplayer2
 }
