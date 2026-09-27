@@ -163,7 +163,7 @@ function drawallskeletons() {
 // Draws one person's skeleton.
 function drawSkeleton(person, skeletoncolor) {
     // Set skeleton line colour.
-    stroke(skeletonColor);
+    stroke(skeletoncolor);
 
     // Set skeleton line thickness.
     strokeWeight(3);
@@ -196,7 +196,7 @@ function drawSkeleton(person, skeletoncolor) {
     noStroke();
 
     // Set circle colour.
-    fill(skeletonColor);
+    fill(skeletoncolor);
 
     // Draw important body points.
     drawBodyPoint(person.nose);
