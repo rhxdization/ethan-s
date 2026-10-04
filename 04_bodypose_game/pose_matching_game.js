@@ -162,7 +162,7 @@ function gotPoses(results) {
 
 function drawallskeletons() {
     if (player1person !== null) {
-        
+        drawSkeleton(player1person)
     }
 }
 
