@@ -166,7 +166,7 @@ function drawallskeletons() {
     }
 
     if (player2person !== null) {
-        
+        drawSkeleton(player2person, player2color);
     }
 }
 
