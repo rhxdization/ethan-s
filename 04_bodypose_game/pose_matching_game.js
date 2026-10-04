@@ -41,7 +41,8 @@ let currentpose = null;
 let bothhandsupimg;
 let lefthandupimg;
 let righthandupimg;
-
+let tposeimg;
+let handsonheadimg;
 
 // ====================================================
 // Preload
