@@ -282,5 +282,10 @@ function findplayers() {
 
 function drawplayerstatus() {
     noStroke();
-    textSize
+    textSize(28);
+    fill(255);
+
+    if (player1person !== null) {
+        text("detected")
+    }
 }
