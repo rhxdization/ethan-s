@@ -324,6 +324,9 @@ function setupposelist() {
             name: "both hands up",
             id: "bothhandsup",
             image: bothhandsupimg
+        },
+        {
+            
         }
     ]
 }
