@@ -86,6 +86,9 @@ function setup() {
 
     player1color = color(255,0,0);
     player2color = color(0,0,255);
+
+    setupposelist();
+    
 }
 
 
