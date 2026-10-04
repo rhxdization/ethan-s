@@ -78,6 +78,7 @@ function setup() {
 
 // draw() runs again and again.
 function draw() {
+    findplayers();
     // Clear the canvas with a dark background.
     background(30);
     // Draw the side panels.
