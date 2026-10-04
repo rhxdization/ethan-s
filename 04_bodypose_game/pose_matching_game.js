@@ -38,6 +38,9 @@ let rightPanelCenterX = rightPanelX + sidePanelWidth/2;
 
 let poselist = [];
 let currentpose = null;
+let bothhandsupimg;
+let lefthandupimg;
+let righthandupimg;
 
 
 // ====================================================
