@@ -281,5 +281,6 @@ function findplayers() {
 }
 
 function drawplayerstatus() {
-    no
+    noStroke();
+    textSize
 }
