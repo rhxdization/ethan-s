@@ -319,5 +319,9 @@ function drawplayerstatus() {
 }
 
 function setupposelist() {
-    poselist = 
+    poselist = [
+        {
+            name: "both hands up"
+        }
+    ]
 }
