@@ -52,7 +52,8 @@ function preload(){
     bodypose = ml5.bodyPose("MoveNet", {flipped: true});
 
     bothhandsupimg = loadImage("assets/poseBattle_bothHandsUp.img");
-    lefthandupimg = loadImage("assets/poseBattle_leftHandUp.img")
+    lefthandupimg = loadImage("assets/poseBattle_leftHandUp.img");
+    righthandupimg = loadImage("assets/poseBattle_")
 }
 
 // ====================================================
