@@ -327,7 +327,8 @@ function setupposelist() {
         },
         {
             name: "left hand up",
-            id
+            id: "lefthandup",
+            
         }
     ]
 }
