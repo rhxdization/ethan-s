@@ -286,6 +286,7 @@ function drawplayerstatus() {
     fill(255);
 
     if (player1person !== null) {
-        text("detected")
+        text("detected", leftPanelCenterX, 125);
+        
     }
 }
