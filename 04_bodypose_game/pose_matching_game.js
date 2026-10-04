@@ -290,4 +290,10 @@ function drawplayerstatus() {
     } else {
         text("not detected", leftPanelCenterX, 125);
     }
+
+    if (player2person !== null) {
+        text("detected", leftPanelCenterX, 125);
+    } else {
+        text("not detected", leftPanelCenterX, 125);
+    }
 }
