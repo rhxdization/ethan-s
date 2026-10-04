@@ -342,6 +342,8 @@ function setupposelist() {
         },
         {
             name: "hands on head",
+            id: "handsonhead",
+            
         }
     ];
 }
