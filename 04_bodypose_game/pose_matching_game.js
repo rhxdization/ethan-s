@@ -161,7 +161,7 @@ function gotPoses(results) {
     detectedPeople = results;
 }
 
-function drawallskeletons() {
+function drawplayerskeletons() {
     if (player1person !== null) {
         drawSkeleton(player1person, player1color);
     }
