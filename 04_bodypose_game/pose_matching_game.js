@@ -54,7 +54,8 @@ function preload(){
     bothhandsupimg = loadImage("assets/poseBattle_bothHandsUp.img");
     lefthandupimg = loadImage("assets/poseBattle_leftHandUp.img");
     righthandupimg = loadImage("assets/poseBattle_rightHandUp.img");
-    tposeimg = loadImage("assets/poseBattle_tPose")
+    tposeimg = loadImage("assets/poseBattle_tpose.img");
+    handsonheadimg = loadImage()
 }
 
 // ====================================================
