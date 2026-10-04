@@ -33,7 +33,8 @@ let player2person = null;
 let player1color;
 let player2color;
 
-
+let leftPanelCenterX = sidePanelWidth/2;
+let rightPanelCenterX = rightPanelX +
 
 // ====================================================
 // Preload
