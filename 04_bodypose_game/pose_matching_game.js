@@ -279,3 +279,7 @@ function findplayers() {
         }
      }
 }
+
+function drawplayerstatus() {
+    no
+}
