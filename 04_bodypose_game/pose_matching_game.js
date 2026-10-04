@@ -317,3 +317,7 @@ function drawplayerstatus() {
         text("not detected", rightPanelCenterX, 125);
     }
 }
+
+function setupposelist() {
+    poselist = 
+}
