@@ -161,9 +161,8 @@ function gotPoses(results) {
 }
 
 function drawallskeletons() {
-    for (let i = 0; i<detectedPeople.length; i++) {
-        let person = detectedPeople[i];
-        drawSkeleton(person,skeletoncolor);
+    if (player1person !== null) {
+        
     }
 }
 
