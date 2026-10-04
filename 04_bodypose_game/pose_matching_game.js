@@ -321,7 +321,9 @@ function drawplayerstatus() {
 function setupposelist() {
     poselist = [
         {
-            name: "both hands up"
+            name: "both hands up",
+            id: "bothhandsup",
+            image: bothhandsupimg
         }
     ]
 }
