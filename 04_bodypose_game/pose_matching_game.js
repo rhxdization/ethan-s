@@ -98,7 +98,7 @@ function draw() {
         fill(255,0,0);
     }
 
-    drawallskeletons();
+    drawplayerskeletons();
 }
 
 // ====================================================
