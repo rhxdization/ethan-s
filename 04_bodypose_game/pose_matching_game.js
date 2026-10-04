@@ -334,6 +334,11 @@ function setupposelist() {
             name: "right hand up",
             id: "righthandup",
             image: righthandupimg
+        },
+        {
+            name: "t pose",
+            id: "tpose",
+            
         }
     ];
 }
