@@ -338,7 +338,10 @@ function setupposelist() {
         {
             name: "t pose",
             id: "tpose",
-            
+            image: tposeimg
+        },
+        {
+            name: "hands on head",
         }
     ];
 }
