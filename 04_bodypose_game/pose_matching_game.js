@@ -88,7 +88,7 @@ function setup() {
     player2color = color(0,0,255);
 
     setupposelist();
-    
+    currentpose = poselist[0];
 }
 
 
