@@ -37,7 +37,7 @@ let leftPanelCenterX = sidePanelWidth/2;
 let rightPanelCenterX = rightPanelX + sidePanelWidth/2;
 
 let poselist = [];
-let current
+let currentpose = null;
 
 // ====================================================
 // Preload
