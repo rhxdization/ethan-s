@@ -40,7 +40,7 @@ function setup () {
     handPose.detectStart(video, gotHands);
 
     fingertip = new Sprite();
-    fingertip.diameter = 60;
+    fingertip.diameter = 25;
     fingertip.collider = 'kinematic';
     fingertip.color = 'rgb(255,255,255)';
 
