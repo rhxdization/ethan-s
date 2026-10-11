@@ -39,6 +39,11 @@ function setup () {
 
     handPose.detectStart(video, gotHands);
 
+    fingertip = new Sprite();
+    fingertip.diameter = 60;
+    fingertip.collider = 'kinematic';
+    fingertip.color = 'rgba(0,255,0,0.05';
+
 }
 
 function gotHands(results){
