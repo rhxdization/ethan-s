@@ -46,6 +46,7 @@ function gotHands(results){
 }
 
 function draw () {
+    image()
     background("black")  
 
     for (let i = 0; i < hands.length; i++) {
