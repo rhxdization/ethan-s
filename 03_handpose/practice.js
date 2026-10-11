@@ -59,5 +59,33 @@ function draw () {
     for (let i = 0; i < hands.length; i++) {
         let hand = hands[i]; 
     }
+
+    if (hands.length > 0) {
+        let hand = hands[0];
+        let keypoint = hand.keypoints[8];
+
+        circle(keypoint.x, keypoint.y, 30);
+
+        fingertip.x = keypoint.x;
+        fingertip.y = keypoint.y;
+        fingertip.visible = true;
+    }
+    else {
+        fingertip.visible = false;
+    }
+
+    if (gameover === false) {
+        if (hands.length > 0) {
+            let hand = hands[0];
+            let keypoint = hand.keypoints[8];
+
+            fingertip.x = keypoint.x;
+            fingertip.y = keypoint.y;
+            fingertip.visible = true;
+        }
+        else {
+            fingertip.visible = false;
+        }
+    }
     
 }
