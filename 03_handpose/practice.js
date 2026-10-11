@@ -74,4 +74,5 @@ function draw () {
         fingertip.visible = false;
     }
     
+    
 }
