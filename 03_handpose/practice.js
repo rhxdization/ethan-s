@@ -1,6 +1,8 @@
 let handPose;
 let hands = [];
 let video;
+let videoW = 640;
+let videoH = 480;
 
 function preload(){
 
