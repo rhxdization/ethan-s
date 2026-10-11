@@ -83,7 +83,7 @@ function draw () {
         }
         else {
             fingertip.visible = false;
-        }
+        }   
     
     
 }
